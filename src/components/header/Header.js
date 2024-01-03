@@ -1,6 +1,5 @@
 const links = [
-  { name: 'Our Service', href: '/services' },
-  { name: 'Pricing', href: '/pricing' },
+  { name: 'What we provide', href: '/whatWeProvide' },
   { name: 'Contact Us', href: '/contactUs' },
 ]
 

@@ -1,10 +1,9 @@
 const links = [
     { name: 'Home', href: '/' },
-    { name: 'Our Service', href: '/services' },
-    { name: 'Contact Us', href: '/contactUs' },
+    { name: 'What we provide', href: '/whatWeProvide' },
 ]
 
-export default function Subheader() {
+export default function SubheaderTwo() {
     return (
         <div className="relative isolate overflow-hidden bg-gray-900 py-8 sm:py-8">
             <img
