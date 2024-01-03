@@ -24,7 +24,7 @@ export default function Home() {
 
             <div className="mt-10 flex items-center justify-center gap-x-6 mb-4">
               <a
-                href="#"
+                href="/services"
                 className="rounded-md bg-purple-800 px-8 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-800"
               >
                 Our Services
