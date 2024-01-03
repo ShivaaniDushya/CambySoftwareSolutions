@@ -1,0 +1,73 @@
+@media (min-width: 1024px) {
+    .cqk {
+        top: 0px;
+        bottom: 0px;
+        right: 0px;
+    }
+}
+
+@media (min-width: 1180px) {
+    .cqk {
+        top: 0px;
+        bottom: 0px;
+        right: 0px;
+    }
+}
+
+@media (min-width: 1180px){
+.cqe {
+    position: absolute;
+}
+}
+
+.aiq {
+    --tw-bg-opacity: 1;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    /* border-color: #e5e7eb; */
+}
+
+.alo {
+    --tw-bg-opacity: 1;
+}
+
+@media (min-width: 1024px){
+    .cwz {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1180px){
+.cwz {
+    width: 100%;
+}
+}
+
+@media (min-width: 1180px){
+.cvz {
+    height: 100%;
+}
+}
+
+.aqe {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.mr {
+    aspect-ratio: 1.8/2;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+img, svg, video, canvas, audio, iframe, embed, object {
+    display: block;
+    vertical-align: middle;
+}
