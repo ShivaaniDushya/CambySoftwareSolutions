@@ -60,7 +60,7 @@ export default function Pricing() {
               </div>
 
               <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
-                <Pricingdown amount="10,000" btnText="Get your website" />
+                <Pricingdown amount="10,000" btnText="Get your website" path="/contactUs"/>
               </div>
             </div>
 
@@ -84,7 +84,7 @@ export default function Pricing() {
               </div>
 
               <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
-                <Pricingdown amount="40,000" btnText="Get your ERP System" />
+                <Pricingdown amount="40,000" btnText="Get your ERP System" path="/contactUs"/>
               </div>
             </div>
 
@@ -108,7 +108,7 @@ export default function Pricing() {
               </div>
 
               <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
-                <Pricingdown amount="10,000" btnText="Improve your Business" />
+                <Pricingdown amount="10,000" btnText="Improve your Business" path="/contactUs"/>
               </div>
             </div>
 

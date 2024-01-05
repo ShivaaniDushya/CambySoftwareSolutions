@@ -1,9 +1,17 @@
+import { useNavigate } from "react-router-dom";
+
 const links = [
     { name: 'Home', href: '/' },
     { name: 'Contact Us', href: '/contactUs' },
 ]
 
 export default function SubheaderOne() {
+    const navigate = useNavigate();
+
+    function handleClick(path) {
+        navigate(path);
+    }
+
     return (
         <div className="relative isolate overflow-hidden bg-gray-900 py-8 sm:py-8">
             <img
@@ -42,7 +50,7 @@ export default function SubheaderOne() {
                 <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
                     <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
                         {links.map((link) => (
-                            <a key={link.name} href={link.href}
+                            <a key={link.name} onClick={() => handleClick(link.href)}
                                 className="rounded-md bg-purple-800 px-8 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-800">
                                 {link.name} <span aria-hidden="true">&rarr;</span>
                             </a>
