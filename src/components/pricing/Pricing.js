@@ -60,7 +60,7 @@ export default function Pricing() {
               </div>
 
               <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
-                <Pricingdown amount="10,000" btnText="Get your website" path="/contactUs"/>
+                <Pricingdown amount="15,000" btnText="Get your website" path="/contactUs"/>
               </div>
             </div>
 
