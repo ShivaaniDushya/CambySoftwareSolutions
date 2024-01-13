@@ -17,7 +17,7 @@ export default function Pricingdown(props) {
                         <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">LKR</span>
                     </p>
                     <a
-                        onClick={() => handleClick(props.path)}
+                        onClick={() => handleClick(props.path)} style={{cursor: "pointer"}}
                         className="mt-10 block w-full rounded-md bg-purple-800 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
                         {props.btnText}
